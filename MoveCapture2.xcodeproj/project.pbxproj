@@ -12,6 +12,7 @@
 		1C7B291923B6AED70025E8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B291723B6AED70025E8D6 /* Main.storyboard */; };
 		1C7B291B23B6AEDB0025E8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B291A23B6AEDB0025E8D6 /* Assets.xcassets */; };
 		1C7B291E23B6AEDB0025E8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B291C23B6AEDB0025E8D6 /* LaunchScreen.storyboard */; };
+		1C7B292723B6AEEB0025E8D6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7B292623B6AEEB0025E8D6 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1C7B291A23B6AEDB0025E8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C7B291D23B6AEDB0025E8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C7B291F23B6AEDB0025E8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7B292623B6AEEB0025E8D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7B292723B6AEEB0025E8D6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				1C7B291223B6AED70025E8D6 /* MoveCapture2 */,
 				1C7B291123B6AED70025E8D6 /* Products */,
+				1C7B292523B6AEEB0025E8D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				1C7B291F23B6AEDB0025E8D6 /* Info.plist */,
 			);
 			path = MoveCapture2;
+			sourceTree = "<group>";
+		};
+		1C7B292523B6AEEB0025E8D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C7B292623B6AEEB0025E8D6 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
